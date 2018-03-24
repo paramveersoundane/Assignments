@@ -1,0 +1,83 @@
+.container {
+    position: absolute;
+    height: 1000px;
+    width: 1500px;
+}
+
+.hder {
+    position: relative;
+    height: 12%;
+    background-color: blue;
+    opacity: 0.5;
+}
+
+.row {
+    width: 31%;
+    background-color: yellow;
+    position: relative;
+    left: 55%;
+    top: 33%;
+}
+
+.collumn3 {
+    position: relative;
+}
+
+.collumn2 {
+    position: relative;
+}
+
+.collumn1 {
+    position: relative;
+}
+
+.middle_container {
+    top: 14%;
+    position: absolute;
+    background-color: red;
+    height: 50%;
+    width: 80%;
+    overflow: scroll;
+    border-width: 10px 10px 10px 10px;
+    left: 4%;
+    border: blue;
+}
+
+.rowgroup1 {
+    display: grid;
+    grid-auto-columns: 10px 1fr 10px 1fr 10px 1fr 10px;
+    grid-auto-rows: 10px 1fr 10px;
+    height: 24%;
+    width: 63%;
+    position: relative;
+    top: 11%;
+    left: 29%;
+}
+
+.rowgroup2 {
+    display: grid;
+    height: 24%;
+    width: 45%;
+    position: relative;
+    top: 15%;
+    left: 29%;
+}
+
+.rowgroup3 {
+    display: grid;
+    height: 24%;
+    width: 30%;
+    position: relative;
+    top: 15%;
+    left: 29%;
+}
+
+.content {
+    display: grid;
+    overflow: scroll;
+    background-color: yellowgreen;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 10%;
+}
