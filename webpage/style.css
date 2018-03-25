@@ -7,7 +7,7 @@
 .hder {
     position: relative;
     height: 12%;
-    background-color: blue;
+    background-color: #1ec1ed;
     opacity: 0.5;
 }
 
@@ -34,7 +34,7 @@
 .middle_container {
     top: 14%;
     position: absolute;
-    background-color: red;
+    background-color: #afa1a133;
     height: 50%;
     width: 80%;
     overflow: scroll;
@@ -45,12 +45,10 @@
 
 .rowgroup1 {
     display: grid;
-    grid-auto-columns: 10px 1fr 10px 1fr 10px 1fr 10px;
-    grid-auto-rows: 10px 1fr 10px;
     height: 24%;
     width: 63%;
     position: relative;
-    top: 11%;
+    top: -14%;
     left: 29%;
 }
 
@@ -59,7 +57,7 @@
     height: 24%;
     width: 45%;
     position: relative;
-    top: 15%;
+    top: -21%;
     left: 29%;
 }
 
@@ -68,16 +66,66 @@
     height: 24%;
     width: 30%;
     position: relative;
-    top: 15%;
+    top: -31%;
     left: 29%;
 }
 
 .content {
     display: grid;
     overflow: scroll;
-    background-color: yellowgreen;
+    background-color: #d4d7ce;
     position: relative;
     height: 100%;
     width: 100%;
-    margin-top: 10%;
+    margin-top: -8%;
+}
+
+
+/*   Previous and next buttons */
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #008287;
+    color: black;
+}
+
+.next {
+    background-color: #008287;
+    color: black;
+}
+
+.round {
+    border-radius: 163%;
+    position: relative;
+    width: 0px;
+}
+
+#footer {
+    height: 40%;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(159, 221, 236);
+    top: 73%;
+}
+
+.white-block-content {
+    position: relative;
+    top: 21%;
+    left: 5%;
+}
+
+.white-block-content1 {
+    left: 29%;
+    position: relative;
+    top: -24%;
 }
